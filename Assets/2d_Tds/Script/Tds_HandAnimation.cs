@@ -9,6 +9,7 @@ public class Tds_HandAnimation : MonoBehaviour {
 	private AudioSource vAudioSource;
 
 	// Use this for initialization
+	// Moving wall
 	void Start () {
 		vCurCharacter = transform.parent.GetComponent<Tds_Character> ();
 		vGameManager = GameObject.Find ("GameManager").GetComponent<Tds_GameManager> ();
